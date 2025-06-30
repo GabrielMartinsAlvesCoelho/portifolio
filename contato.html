@@ -2,11 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Sobre Mim</title>
+  <title>Contato</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <body class="pagina-sobre">
+    <body class="pagina-contato">
 
   <header>
     <h1>Gabriel Martins</h1>
@@ -21,9 +21,19 @@
   </header>
 
   <main>
-    <h2>Sobre Mim</h2>
-    <p>Olá! Me chamo Gabriel Martins, tenho interesse por tecnologia, programação e design. Gosto de desafios, aprender coisas novas e resolver problemas de forma criativa.</p>
-    <p>No meu tempo livre, gosto de ouvir música, jogar, assistir filmes e sair com os amigos.</p>
+    <h2>Entre em Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
   </main>
 
   <footer>

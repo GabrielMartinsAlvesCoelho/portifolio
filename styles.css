@@ -1,6 +1,16 @@
-h1 {
-    background-color: red;
+/* Cores de fundo diferentes por página */
+.pagina-sobre {
+  background-color:rgba(5, 175, 82, 0.986) /* azul claro */
 }
-body{
-    background-color: blue;
+
+.pagina-formacao {
+  background-color:mistyrose  /* laranja claro */
+}
+
+.pagina-portfolio {
+  background-color: rgba(247, 117, 70, 0.685); /* verde claro */
+}
+
+.pagina-contato {
+  background-color: pink /* rosa claro */
 }

@@ -14,13 +14,44 @@
 .pagina-contato {
   background-color: pink /* rosa claro */
 }
-p{margin-left:  60px;}
+p{margin-left:  60px;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 23px;
+}
 
+ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
 
+ul li {
+      margin: 0 80px;
+    }
 
-.borda-selecao{border: 3px solid #000000; /* borda vertical à esquerda */
-  padding: 60px;             /* espaço interno da borda até o texto */
-  width: 4%;
-  list-style: none;               /* remove os marcadores */
-  margin-top: 20px;
-  margin-bottom: 50px;            /* espaçamento entre os itens da lista */ }
+ul li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    h1 { text-align: center;
+    position: relative;
+    top: 0%; 
+    font-size: 36px;
+  }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+

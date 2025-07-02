@@ -4,7 +4,7 @@
 }
 
 .pagina-formacao {
-  background-color:mistyrose  /* laranja claro */
+  background-color: rgba(190, 72, 72, 0.616)  /* laranja claro */
 }
 
 .pagina-portfolio {
@@ -14,3 +14,13 @@
 .pagina-contato {
   background-color: pink /* rosa claro */
 }
+p{margin-left:  60px;}
+
+
+
+.borda-selecao{border: 3px solid #000000; /* borda vertical à esquerda */
+  padding: 60px;             /* espaço interno da borda até o texto */
+  width: 4%;
+  list-style: none;               /* remove os marcadores */
+  margin-top: 20px;
+  margin-bottom: 50px;            /* espaçamento entre os itens da lista */ }

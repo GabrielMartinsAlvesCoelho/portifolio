@@ -1,59 +1,82 @@
-/* Cores de fundo diferentes por página */
+/* Cor de fundo da página "Sobre Mim" */
 .pagina-sobre {
-  background-color:rgba(5, 175, 82, 0.986) /* azul claro */
+  background-color: #FFF1E6; 
 }
 
+/* Cor de fundo da página "Formação" */
 .pagina-formacao {
-  background-color: rgba(190, 72, 72, 0.616)  /* laranja claro */
+  background-color: #EAE7DC; /* laranja claro */
 }
 
+/* Cor de fundo da página "Portfólio" */
 .pagina-portfolio {
-  background-color: rgba(247, 117, 70, 0.685); /* verde claro */
+  background-color: #FFF1E6; 
 }
 
+/* Cor de fundo da página "Contato" */
 .pagina-contato {
-  background-color: pink /* rosa claro */
+  background-color: #EAE7DC /* cinza claro */
 }
-p{margin-left:  60px;
-  font-size: 18px;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  font-size: 23px;
+
+/* Parágrafos                    */
+p {
+  margin-left: 60px;           /* Recuo do parágrafo à esquerda */
+  font-size: 23px;             /* Tamanho da fonte */
+  display: flex;               /* Faz o parágrafo virar um elemento flexível */
+  justify-content: center;     /* Centraliza horizontalmente o conteúdo dentro do parágrafo */
+  padding: 20px;               /* Espaçamento interno */
+  line-height: 1.8;            /* Espaçamento entre as linhas */
+  text-align: center;          /* Centraliza o texto */
 }
+
+/* Lista horizontal do menu     */
 
 ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-    }
-
-ul li {
-      margin: 0 80px;
-    }
-
-ul li a {
-      font-size: 23px;
-      text-decoration: none;
-      color: black;
-    }
-
-h1 {
-    text-align: center;
-    position: relative;
-    top: 0%; 
-    font-size: 45px;
-  }
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
+  list-style: none;            /* Remove os marcadores de lista */
+  display: flex;               /* Exibe os <li> lado a lado (em linha) */
+  justify-content: center;     /* Centraliza os itens dentro da <ul> */
+  padding: 0;                  /* Remove o padding padrão */
+  margin: 0;                   /* Remove a margem padrão */
+ 
 }
 
+ul li {
+  margin: 0 80px;              /* Espaçamento lateral entre os itens */
+  font-size: 23px;             /* Tamanho da fonte dos itens */
+  text-decoration-line: underline; /* Sublinha o texto */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s; /* Efeito ao passar o mouse */
+}
+
+nav ul li a:hover {
+  color: #FF7F50; /* Coral */
+}
+
+/* Título principal (h1)        */
+
+h1 {
+  text-align: center;          /* Centraliza o texto */
+  position: relative;          /* Prepara para ajustes finos de posição */
+  top: 0%;                     /* Sem deslocamento vertical */
+  font-size: 45px;             /* Tamanho da fonte grande */
+}
+
+/* Rodapé fixo na parte inferior */
+
+footer {
+ position: fixed;               /* Fixa o rodapé no final da tela, */
+  bottom: 0;                     /* Posiciona ele encostado no fundo da janela */
+  width: 100%;                   /* Faz o rodapé ocupar toda a largura da tela */
+  background-color: #f2f2f2;     /* Cor de fundo clara para destacar do conteúdo */
+  text-align: center;           /* Centraliza o texto dentro do rodapé */
+  padding: 12px;                /* Espaçamento interno para o conteúdo não ficar colado nas bordas */
+  font-size: 14px;              /* Tamanho da fonte do texto do rodapé */
+  color: #555;                  /* Cor do texto em cinza escuro */
+  border-top: 1px solid #ccc;   /* Linha separando visualmente o rodapé do restante do site */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05); /* Sombra leve acima do rodapé para profundidade */
+}

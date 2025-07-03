@@ -37,14 +37,16 @@ ul li {
     }
 
 ul li a {
+      font-size: 23px;
       text-decoration: none;
       color: black;
     }
 
-    h1 { text-align: center;
+h1 {
+    text-align: center;
     position: relative;
     top: 0%; 
-    font-size: 36px;
+    font-size: 45px;
   }
 footer {
   position: fixed;
